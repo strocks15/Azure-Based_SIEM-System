@@ -265,7 +265,7 @@ To set up Azure Sentinel, Microsoft's cloud-native Security Information and Even
 3. Write a Script :
 
 ## Get API key from here: https://ipgeolocation.io/
-$API_KEY = "e3e11c09978f473bb9622167a8aadc05" $LOGFILE_NAME = "failed_rdp.log" 
+$API_KEY = "Copy the key you get from ipgeolocation.io"  $LOGFILE_NAME = "failed_rdp.log" 
 LOGFILEPATH="C:\ProgramData($LOGFILE_NAME)"
 ### This filter will be used to filter failed RDP events from Windows Event Viewer
 
